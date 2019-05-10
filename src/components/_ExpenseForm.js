@@ -18,6 +18,8 @@ export class ExpenseForm extends Component {
 
     console.log( 'New expense: ', expense );
 
+    // Add the function coming from App.js
+    this.props.addExpense( expense );
     // We might reset the Form
     event.currentTarget.reset();
   }
