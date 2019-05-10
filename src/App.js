@@ -1,10 +1,11 @@
 import React from 'react';
+import { Header } from './components';
 import './css/App.css';
 
 function App() {
   return (
     <div className="App">
-     <h1 styles="color: white;">Hello Venzee Folks!.....</h1>
+      <Header title="Weekly budget planner" />
     </div>
   );
 }
