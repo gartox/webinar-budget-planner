@@ -6,7 +6,8 @@ export const validateBudget = budget => {
   return false;
       }
   }
-  export const revisarPresupuesto = (budget, pending) => {
+
+export const reviewBudget = (budget, pending) => {
   let clase;
   // Comprobar el 25%
   if( (budget / 4) > pending) {
